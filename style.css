@@ -1,0 +1,37 @@
+.item1,.item2{
+    width: 60px;
+    height: 60px;
+    list-style-type: none;
+    margin: 20px;
+}
+.item1{
+    background-color:rgb(15, 161, 209);
+}
+.item2{
+    background-color:rgb(133, 38, 133);
+}
+.Container{
+    width: 1000px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bigbox{
+    width: 1000px;
+    height: 110px;
+    display:flex;
+    margin: 10px 0;
+    border: 2px solid rgb(15, 161, 209);
+    justify-content: space-between;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+#second{
+    background-color: coral;
+}
